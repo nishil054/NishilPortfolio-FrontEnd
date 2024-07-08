@@ -1,0 +1,29 @@
+.nav-bar {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* padding: 6px; */
+    border-radius: 20px;
+    height: 55px;
+}
+
+.nav-bar span {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 16px 45px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-bar span:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-bar span a {
+    text-decoration: none;
+    color: inherit;
+}
