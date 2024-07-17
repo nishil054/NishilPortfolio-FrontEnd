@@ -9,12 +9,23 @@ body{
 }
 
 app-top-nav-bar{
+    position: relative;
+    bottom: 85px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .navigation-bar{
+    height: 0px;
     margin-top: auto;
     margin-bottom: 20px;
+}
+
+.secondSec{
+    height: 100vh;
+}
+
+.myPhoto img{
+    height: 550px;
 }
